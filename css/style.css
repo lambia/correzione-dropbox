@@ -84,6 +84,7 @@ main {
 
 section#jumbotron {
 	background-color: #b4d0e7;
+	margin-bottom: 60px;
 }
 
 #jumbotron .containerBig {
