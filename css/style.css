@@ -88,16 +88,17 @@ section#jumbotron {
 
 #jumbotron .containerBig {
 	position: relative;
-	top: 80px;
+	padding-top: 64px;
 }
 
 #jumbotron img {
 	width: 100%;
+	margin-bottom: -60px;
 }
 
 #frecciona {
 	position: absolute;
-	bottom: 100px;
+	bottom: 20px;
 }
 
 h1 {
