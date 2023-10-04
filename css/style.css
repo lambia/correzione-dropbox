@@ -76,7 +76,7 @@ header nav a.btn {
 }
 
 /****** FINE HEADER *******/
-/****** INIZIO MAIN *******/
+/****** INIZIO JUMBOTRON *******/
 
 main {
 	padding-top: var(--navbar-height);
@@ -107,7 +107,54 @@ h1 {
 	font-weight: 800;
 }
 
-/****** FINE MAIN  *******/
+/****** FINE JUMBOTRON  *******/
+/****** INIZIO PLANS ********/
+h2 {
+	font-size: 40px;
+}
+.plans-columns {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.radio {
+	display: inline-block;
+	height: 1.5em;
+	width: 1.5em;
+    vertical-align: middle;
+	border: 1px solid lightgray;
+	background: white;
+    border-radius: 50%;
+}
+.radio-checked {
+	border: 5px solid var(--primary-color);
+}
+.radio-label {
+    vertical-align: middle;
+}
+
+.plan-column {
+	border: solid 1px #d0d0d0;
+}
+
+.plan-header {
+	text-align: center;
+	border-bottom: solid 1px #d0d0d0;
+}
+
+.plan-content {
+
+}
+
+#plans h3 {
+	font-size: 30px;
+}
+
+#plans .price {
+	font-weight: bold;
+}
+
+/****** FINE PLANS ********/
 /****** INIZIO FOOTER *******/
 
 footer {
